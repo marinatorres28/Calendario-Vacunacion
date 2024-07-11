@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Vacunación</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <!-- logo jccm -->
+        <img src="img/log-clm.png" alt="Logo Junta de Comunidades de Castilla la Mancha">
+        <!-- titulo de la pagina -->
+        <h1>Calendario de Vacunación Infantil</h1>
+        <!-- logo sescam -->
+        <img src="img/sescam-logo.jpg" alt="Logo del Servicio de Salud de Castilla la Mancha">
+    </div>
+
+    <hr>
+
+    <div class="desplegable">
+
+        
+        <p>Seleccione la edad del niño:</p>
+        <!-- opciones para visualizar las vacunas -->
+        <select name="desplegable" id="desplegable">
+            <option value="">Seleccione la edad</option>
+        </select>
+
+        <p>Vacunas necesarias:</p>
+        <p id="salida" class="letra-oscura"></p>
+
+    </div>
+
+    <!-- icono accesibilidad -->
+    <div class="icono-accesibilidad" onclick="mostrarOcultar()">
+
+        <img src="img/icono-accesible.svg" alt="Icono accesibilidad">
+
+    </div>
+
+    <!-- barra lateral de accesibilidad -->
+    <div class="accesibilidad">
+        <h2>Accesibilidad</h2>
+        <button id="aumentar">Aumentar Fuente</button>
+        <button id="reducir">Reducir Fuente</button>
+        <button id="escalaGrises">Escala de Grises</button>
+        <button id="altoContraste">Alto Contraste</button>
+        <button id="restablecer">Restablecer</button>
+    </div>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
