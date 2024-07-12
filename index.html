@@ -20,23 +20,26 @@
     </div>
 
     <hr>
+    <!-- BOTON IMPRIMIR -->
+    <div>
+        <button onclick="window.print()" accesskey="p">Imprimir</button>
+    </div>
 
     <div class="desplegable">
 
-        
         <p>Seleccione la edad del niño:</p>
         <!-- opciones para visualizar las vacunas -->
         <select name="desplegable" id="desplegable">
             <option value="">Seleccione la edad</option>
         </select>
 
-        <p>Vacunas necesarias:</p>
+        
         <p id="salida" class="letra-oscura"></p>
 
     </div>
 
     <!-- icono accesibilidad -->
-    <div class="icono-accesibilidad" onclick="mostrarOcultar()">
+    <div class="icono-accesibilidad" onclick="mostrarOcultar()" accesskey="a">
 
         <img src="img/icono-accesible.svg" alt="Icono accesibilidad">
 

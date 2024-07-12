@@ -24,10 +24,8 @@ for ([edad,vacuna] of mapa) {
 
 select.addEventListener("change" , function(){
     let vacunaContenido=mapa.get(select.value);
-    document.querySelector("#salida").textContent=vacunaContenido;
+    document.querySelector("#salida").textContent="Vacunas necesarias: " + vacunaContenido;
 })
-
-
 
 
 
